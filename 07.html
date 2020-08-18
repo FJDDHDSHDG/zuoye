@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var sar = prompt ('请输入班级总人数')
+        var so = 0 ;
+        var sc = 0 ;
+        for(var i=1; i<= sar;i++){
+            var sol = prompt('请你输入第'+ i +'个学生成绩')
+            so = so + parseFloat(sol);
+        }
+        sc= so/sar;
+        alert('班级总成绩是'+so)    
+        alert('班级平均分是：'+sc)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
